@@ -1,0 +1,185 @@
+html,body{
+  position:relative;
+  padding: 1em;
+  width:1200px;
+  font-family:'微軟正黑體';
+  background: url(http://subtlepatterns.com/patterns/wavegrid.png) repeat;
+} 
+
+.top_menu{
+  position:absolute;
+  background-color:yellow;
+  font-size:.8em;
+  font-weight:bold;
+}
+
+.logo_1 img{
+  float:left;
+  height:150px;
+}
+
+.logo_2 img{
+  height:150px;
+}
+
+.main_menu{
+  font-weight:bold;
+  background-color:bisque;
+  text-align: center;
+  vertical-align: middle;
+  margin:10px 140px;
+  padding:5px;
+}
+
+.search{
+  padding:0.6em  0.5em;
+}
+.search_01, .search_02, .search_03{
+  font-size:.9em;
+  padding:0.2em  0.5em;
+  background: url(http://subtlepatterns.com/patterns/worn_dots.png) repeat;
+
+}
+
+.body_middle{
+  width:1200px;
+
+}
+
+.left  {
+  font-weight:bold;
+  float:left;
+  width:200px;
+　height:400px;
+  margin-left:30px;
+}
+
+.guide, .photos{
+  border:10px solid lightskyblue;
+  margin:0 0 1em 0;
+   background: url(http://subtlepatterns.com/patterns/worn_dots.png) repeat;
+}
+
+.adobe{
+  font-size:.8em;  
+  text-decoration: underline;
+}
+
+.banner{
+  vertical-align: middle;
+  margin-right:100px;
+  border:40px solid lightskyblue;
+  width:650px;
+  height：500px;
+  float:right;
+  
+}
+
+
+
+.latest{
+   clear:both;
+}
+.latest ,.news ,.announcement{
+  float:left;
+  width:350px;
+  border:5px solid rosybrown;
+  background: url(http://subtlepatterns.com/patterns/arches.png) repeat;
+  padding:8px;
+  margin:30px 0 30px 0;
+  font-size:.9em;
+}
+
+.latest_title,.news_title ,.announcement_title{
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+
+.links_right, .links_left{
+ 
+  width:100px;
+  padding: 0 1em 2em 0.5em;
+  border: 5px solid lightsalmon;
+  background: url(http://subtlepatterns.com/patterns/foggy_birds.png) repeat;  
+}
+
+.links_left{
+  float:left;
+  margin-right:30%;
+}
+
+.links_right{
+  float:right;
+  margin-right:5%;
+}
+
+
+.links_right, .links_left p{
+  font-weight:bold;
+}
+.links_left img{
+  width:100px;
+  padding: 0.2em;
+}
+
+.links_right img{
+  width:100px;
+  padding: 0.2em;
+
+}
+
+.activity{
+  font-size:.9em;
+  font-weight:bold;
+  
+}
+
+.calendar{
+ 
+  width:170px;
+　height:400px;
+  border:3px solid lightskyblue;
+  background: url(http://subtlepatterns.com/patterns/worn_dots.png) repeat;
+}
+
+.footer{
+  clear:both;
+  margin: 1em 2em 0 0;
+  padding:.8em;
+  border :5px solid lightsalmon;
+    background: url(http://subtlepatterns.com/patterns/worn_dots.png) repeat;
+}
+
+.final_right{
+  padding:0 .8em;
+  background: url(http://subtlepatterns.com/patterns/denim.png) repeat;
+ float:right;
+} 
+
+.final_left{
+  float:left;
+}
+  
+.footer p{
+ font-size:.6em;
+ font-weight:bold;  
+  line-height:.8px;
+}
+
+
+a:link{ 
+  text-decoration: none;
+  color:turquoise;
+}
+
+a:visited{
+  color: mediumorchid;
+}
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+a:active{
+  color: yellow;
+}
