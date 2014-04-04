@@ -40,7 +40,6 @@ header {
   z-index:5;
 }
 
-/* 使用z-index似乎會讓超連結失效，本來想讓他可以點回首頁，但是一直不成功*/
 
 .connection{
   position:absolute;
