@@ -40,10 +40,8 @@ header {
   z-index:5;
 }
 
-<<<<<<< HEAD:not hw_photo.css
-=======
+/* 使用z-index似乎會讓超連結失效，本來想讓他可以點回首頁，但是一直不成功*/
 
->>>>>>> f6b77472c792f6a8d3b3e97dd556bbe401cc37a6:hw2_fin_list.css
 .connection{
   position:absolute;
   top:90px;
@@ -85,9 +83,6 @@ nav span:nth-child(odd) {
 }
 
 article{
-  background: url(http://subtlepatterns.com/patterns/geometry.png) repeat;
-  border:3px solid lightsalmon;
-  border-radius:0.5em;
   position:relative;
   width:60%;
   margin-left:auto;
@@ -96,19 +91,30 @@ article{
   font-family:'微軟正黑體';
 }
 
-.picture01 ,.picture02 ,.picture03 ,.picture04 ,.picture05 ,.picture06 {
- vertical-align: middle;
- text-align:center;
- border-bottom:3px solid lightsalmon;
-  padding:20px 0px;
+.choices_1 ,.choices_2{
+  background: url(http://subtlepatterns.com/patterns/geometry.png) repeat;
+  border:3px solid lightsalmon;
+  border-radius:0.5em;
+  margin:0em 0em 4em 0em;
+}
+.choices_1{
+  width:27%;
+  padding:1.5em 3em 1.3em 3em;
+  float:left;
 }
 
-.picture01 ,.picture02 ,.picture03 ,.picture04 ,.picture05 ,.picture06 p{
-  font-weight: bold;
-  font-size: 25px;
-  color:lightseagreen;
-  
+.choices_2{
+  width:33%;
+  padding:1.5em 3em 1.5em 3em;
+  float:right;
+}
 
+.enrty_2 ul ,.enrty_3 ul{
+  list-style-type: none;
+}
+
+.enrty_1 p, .enrty_2 p, .enrty_3 p ,.enrty_4 p, .enrty_5 p, .enrty_6 p{
+ text-decoration: underline;
 }
 
 footer{
