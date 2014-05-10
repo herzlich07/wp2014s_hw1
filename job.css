@@ -1,0 +1,202 @@
+body{
+  background-color: white;
+  margin:auto;
+  font-family:'微軟正黑體'
+}
+
+
+article{
+ background:url(http://subtlepatterns.com/patterns/green_cup.png);
+
+}
+
+.wrapper{
+  position:relative; 
+  margin-left:auto; 
+  margin-right:auto; 
+  padding:40px 70px;
+} 
+
+nav{
+  background:#33CCFF;
+  color:white;
+  padding:15px;
+  text-align:right;
+
+}
+.photo{
+  padding:15px 20px 15px 20px;
+  border-right:1px solid white; 
+  border-left:1px solid white;
+}
+.cv{
+  border-left:1px solid white;
+  padding:15px 10px 15px 30px;
+  color:black;
+}
+.work{
+  margin-right:40px;
+  padding:15px 30px 15px 0px;
+  border-right:1px solid white;
+}
+
+.section_left{  
+  width:25%;
+ background:url(http://subtlepatterns.com/patterns/tileable_wood_texture.png);
+  float:left;
+  padding:20px 0px 5px 0px; 
+ 
+}
+.profile ul{
+  font-weight:bold; 
+  font-size:1.1em;
+  padding: 0px 0px 30px 0px; 
+  margin-left: 50px;    
+} 
+ 
+.profile_photo, .name{
+ text-align:center;
+} 
+
+.name{
+  padding-top:30px; 
+}
+
+.profile_photo_2{
+  margin-left:30px;
+}
+
+.section_right{ 
+  overflow: hidden;
+  padding:1em 0em;
+
+} 
+.section_right ,.section_left{
+  position: relative;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 0%     1%     1%     0% /     0%     1%     1%     0%;
+}
+.section_right:before ,.section_left:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px / 100px; 
+    z-index: -1;
+    top: 10%;
+    bottom: 10%;
+    content: "";
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+.section_left{
+  border-radius: 1%     0%     0%     1% /    1%     0%     0%     1%;}
+
+.first, .third{
+    padding-top:18px;  
+}
+
+.education, .job {
+  float:left;
+  width:430px;
+}
+
+.club, .lesson{
+   overflow: hidden;
+   float:right;
+   margin-right:30px;
+}
+
+.contest{
+  padding-top:5px;
+  clear:both;
+}
+
+.contest p{
+ padding-left:4%; 
+}
+
+.contest_words{
+  width:60%;
+  float:left;
+  padding-right:25px;
+  border-right:3px dashed yellow;
+  margin-right:20px;
+}
+
+.work_info, .work_div{
+  float:left;
+}
+.work_info_1, .work_div_1{
+  overflow: hidden;
+}
+
+.education h1, .job h1, .club h1,.contest h1, .lesson h1{
+  font-size:1.5em;
+  color:white;
+  background:yellow;
+  padding:0.5em 2em;
+  border-radius:0px 100px 100px 0px; 
+  border-bottom:2px solid grey;
+  width:300px;
+}
+
+.education h1,.lesson h1 {
+  background:#FF0066;
+}
+.job h1, .club h1{
+  background-color:#00fa9a;  
+}
+
+.edu_uni_name, .edu_high_name,.contest p{
+  font-weight:bolder;
+  font-size:1.5em;
+}
+
+.education_1 , .education_2{
+  margin-left:140px;   
+}
+
+.edu_uni_time, .edu_high_time, .job_mall_time, .job_cram_time, .club_tap_time, .club_scout_time{
+  font-weight:bolder;
+  color:grey;
+}
+
+.edu_margin{
+  margin-top:0.5em;
+}
+
+.job_mall_name,.job_cram_name, .club_tap_name, .club_scout_name{
+  font-size:1.5em;
+  font-weight:bold;
+  display:inline-block;
+}
+.job li, .club li{
+  margin-left:35px;
+}
+ul{
+  list-style-type:none;
+}
+
+.footer{
+  background-color:#33CCFF;
+  padding:5px;
+  text-align:center;
+}
+
+ /* 未連結 */
+a:link{
+  color: white;
+}
+
+
+/* 滑鼠移至連結 */
+a:hover{
+  color: black;
+}
+
+/* 選擇的連結 */
+a:active{
+  color: black;
+}
+a { text-decoration: none } 

@@ -1,0 +1,180 @@
+body{
+  background-color: white;
+  margin:auto;
+  font-family:'微軟正黑體'
+}
+
+
+article{
+ background:url(http://subtlepatterns.com/patterns/green_cup.png);
+
+}
+
+.wrapper{
+  position:relative; 
+  margin-left:auto; 
+  margin-right:auto; 
+  padding:40px 70px;
+} 
+
+nav{
+  background:#33CCFF;
+  color:white;
+  padding:15px;
+  text-align:right;
+
+}
+.photo{
+  padding:15px 20px 15px 20px;
+  border-right:1px solid white; 
+  border-left:1px solid white;
+}
+.cv{
+  border-left:1px solid white;
+  padding:15px 10px 15px 30px;
+}
+.work{
+  margin-right:40px;
+  padding:15px 30px 15px 0px;
+  border-right:1px solid white;
+  color:black;
+}
+
+.section_left{ 
+  width:25%;
+ background:url(http://subtlepatterns.com/patterns/tileable_wood_texture.png);
+  float:left;
+  padding:20px 0px 66px 0px; 
+  
+}
+.profile ul{
+  font-weight:bold; 
+  font-size:1.1em;
+  padding: 0px 0px 30px 0px; 
+  margin-left: 50px;    
+} 
+ 
+.profile_photo, .name{
+ text-align:center;
+} 
+
+.name{
+  padding-top:30px; 
+}
+
+.profile_photo_2{
+  margin-left:30px;
+}
+
+.camera_cv{
+  position: fixed;
+  top:75%;
+  margin-left:64%;
+} 
+
+.cv_p{
+  margin-left:15px
+}
+
+.section_right{ 
+  overflow: hidden;
+  padding:0px 0px 30px 0px;
+} 
+
+.section_right,.section_left {
+  position: relative;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 0%     1%     1%     0% /     0%     1%     1%     0%;
+}
+.section_right:before, .section_left:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px / 100px; 
+    z-index: -1;
+    top: 10%;
+    bottom: 10%;
+    content: "";
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+.section_left{
+  border-radius: 1%     0%     0%     1% /    1%     0%     0%     1%;}
+
+
+
+.work_1 h1, .work_2 h1, .work_3 h1,.work_4 h1, .work_5 h1 {
+  font-size:1.5em;
+  color:white;
+  padding:0.5em 2em;
+  border-radius:0px 100px 100px 0px; 
+  border-bottom:2px solid grey;
+  margin-top:50px;
+  width:550px;
+}
+
+.work_1 h1,.work_5 h1 {
+  background-color:#FF0066;
+}
+.work_2 h1{
+  background-color:#00fa9a;  
+}
+
+.work_3 h1{
+  background-color:yellow; 
+}
+
+.work_4 h1{
+ background-color:#33CCFF; 
+}
+
+.work_1_words, .work_2_words, .work_3_words, .work_4_words, .work_5_words{
+  width:85%;
+  padding:0px 0px 0px 40px;
+}
+
+.work_1_data, .work_2_data, .work_3_data, .work_4_data{
+ text-align:center;
+}
+
+.work_1_video, .work_2_video, .work_4_video{
+  padding-top:20px;
+}
+
+.work_1_info, .work_2_info, .work_3_info, .work_4_info, .work_5_info, .work_1_div, .work_2_div, .work_3_div, .work_4_div, .work_5_div{
+  float:left;
+}
+
+.work_1_info_1, .work_2_info_1, .work_3_info_1, .work_4_info_1, .work_5_info_1,.work_1_div_1, .work_2_div_1, .work_3_div_1, .work_4_div_1, .work_5_div_1{
+  overflow: hidden;
+}
+
+
+ul{
+  list-style-type:none;
+}
+
+.footer{
+  background-color:#33CCFF;
+  padding:5px;
+  text-align:center;
+  color:white;
+}
+
+ /* 未連結 */
+a:link{
+  color: white;
+}
+
+
+/* 滑鼠移至連結 */
+a:hover{
+  color: black;
+}
+
+/* 選擇的連結 */
+a:active{
+  color: black;
+}
+a { text-decoration: none } 
