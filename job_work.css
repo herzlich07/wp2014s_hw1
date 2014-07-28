@@ -181,12 +181,12 @@ a:active{
 a:visited{
 	color: white;}
 
-.camera_cv, .word_links, .word_links_2 a:link{
+.camera_cv, .word_links_1, .word_links_2 a:link{
 	color: black;}
-.camera_cv, .word_links, .word_links_2 a:visited{
+.camera_cv, .word_links_1, .word_links_2 a:visited{
 	color: black;}
 
-.word_links, .word_links_2 a {text-decoration: underline; }
-.word_links, .word_links_2 a:hover{ color: #0000FF;text-decoration: underline }
+.word_links_1, .word_links_2 a {text-decoration: underline; }
+.word_links_1, .word_links_2 a:hover{ color: #0000FF;text-decoration: underline }
 	
 a { text-decoration: none } 
