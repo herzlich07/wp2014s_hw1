@@ -181,9 +181,9 @@ a:active{
 a:visited{
 	color: white;}
 
-.camera_cv a:link{
+.camera_cv, .word_links a:link{
 	color: black;}
-.camera_cv a:visited{
+.camera_cv, .word_links  a:visited{
 	color: black;}
 
 

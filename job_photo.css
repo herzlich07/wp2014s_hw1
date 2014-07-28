@@ -162,5 +162,10 @@ a:active{
 
 a:visited{
 	color: white;}
+	
+.camera_cv a:link{
+	color: black;}
+.camera_cv a:visited{
+	color: black;}
 
 a { text-decoration: none } 
