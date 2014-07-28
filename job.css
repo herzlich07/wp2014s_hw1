@@ -199,4 +199,8 @@ a:hover{
 a:active{
   color: black;
 }
+
+a:visited{
+	color: white;}
+
 a { text-decoration: none } 
