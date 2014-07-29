@@ -157,7 +157,7 @@ nav{
   margin-left:140px;   
 }
 
-.edu_uni_time, .edu_high_time, .job_mall_time, .job_cram_time, .club_tap_time, .club_scout_time, .job_cram_name,{
+.edu_uni_time, .edu_high_time, .job_mall_time, .job_cram_time, .club_tap_time, .club_scout_time, .job_intern_time,{
   font-weight:bolder;
   color:grey;
 }
@@ -166,7 +166,7 @@ nav{
   margin-top:0.5em;
 }
 
-.job_mall_name,.job_cram_name, .club_tap_name, .club_scout_name, .job_cram_name{
+.job_mall_name,.job_cram_name, .club_tap_name, .club_scout_name, .job_cram_name, .job_intern_name,{
   font-size:1.5em;
   font-weight:bold;
   display:inline-block;
